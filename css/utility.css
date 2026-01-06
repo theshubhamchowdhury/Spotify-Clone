@@ -1,0 +1,65 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+/* ===== Dark Website Scrollbar ===== */
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1115;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2f3a;
+  border-radius: 8px;
+  border: 2px solid #0f1115;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4252;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2f3a #0f1115;
+}
